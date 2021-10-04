@@ -1,7 +1,7 @@
 // This shows a simple example of how to archive the build output artifacts.
 node {
         stage('Checkout SCM'){
-                git branch: 'Master', url: 'git@github.com:Hyder2227/Sample_Angular.git'
+                git branch: 'master', url: 'git@github.com:Hyder2227/Sample_Angular.git'
         }
 
         stage('Install node modules'){
